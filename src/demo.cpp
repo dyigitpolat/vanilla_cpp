@@ -1,6 +1,5 @@
 #include "demo.hpp"
 
-//std headers
 #include <iostream>
 
 Demo::Demo(const std::function<void()> &function, const std::string &title) :

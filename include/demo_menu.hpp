@@ -1,11 +1,9 @@
 #pragma once
 
-//std headers
-#include <vector> //std::vector
-#include <string> //std::string
-
-//user headers
 #include "demo.hpp"
+
+#include <vector> 
+#include <string> 
 
 class DemoMenu
 {

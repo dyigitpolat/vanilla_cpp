@@ -1,6 +1,5 @@
 #include "demo_menu.hpp"
 
-//std headers
 #include <iostream>
 
 DemoMenu::DemoMenu(const std::string &title) : m_title{title}

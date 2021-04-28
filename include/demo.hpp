@@ -1,8 +1,7 @@
 #pragma once
 
-//std headers
-#include <functional> //std::function
-#include <string> //std::string
+#include <functional> 
+#include <string> 
 
 class Demo
 {

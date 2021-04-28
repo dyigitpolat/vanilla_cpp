@@ -1,10 +1,6 @@
-#include <iostream>
-
-//std headers
-#include <iostream> //std::cout, std::endl
-
-//user headers
 #include "demo_menu.hpp"
+
+#include <iostream> 
 
 void hello_world()
 {
