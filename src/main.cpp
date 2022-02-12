@@ -4,19 +4,19 @@
 
 void hello_world()
 {
-    std::cout << "42." << std::endl;
+    std::cout << "42.\n";
 }
 
 int main()
 {
-    //----------------------------------------------------//
-    std::cout << "- - - - - - - - - - - - - -" << std::endl;
-    std::cout << "- - - - - - - - - - - - - -" << std::endl;
-    std::cout << "-         Welcome!        -" << std::endl;
-    std::cout << "  Demo Program Entry Point " << std::endl;
-    std::cout << "- - - - - - - - - - - - - -" << std::endl;
-    std::cout << "- - - - - - - - - - - - - -" << std::endl;
-    //----------------------------------------------------//
+    //-----------------------------------------//
+    std::cout << "- - - - - - - - - - - - - -\n";
+    std::cout << "- - - - - - - - - - - - - -\n";
+    std::cout << "-         Welcome!        -\n";
+    std::cout << "  Demo Program Entry Point \n";
+    std::cout << "- - - - - - - - - - - - - -\n";
+    std::cout << "- - - - - - - - - - - - - -\n";
+    //-----------------------------------------//
 
     DemoMenu main_menu("MAIN MENU");
     main_menu.add_menu_item({hello_world, "Hello World!"});

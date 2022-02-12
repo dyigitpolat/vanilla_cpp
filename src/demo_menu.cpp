@@ -36,7 +36,7 @@ void DemoMenu::show() const
         std::cout << "Continue? (y / n): ";
         std::cin >> user_continue;
     } while (user_continue != 'y' && user_continue != 'n');
-    std::cout << std::endl;
+    std::cout << "\n";
 
     if (user_continue == 'n')
     {
@@ -63,11 +63,11 @@ void DemoMenu::print_menu() const
     int i{}; 
     for (const Demo &d : m_demos)
     {
-        std::cout << ++i << ": " << d.get_title() << std::endl;
+        std::cout << ++i << ": " << d.get_title() << "\n";
     }
 }
 
 void DemoMenu::print_title() const
 {
-    std::cout << m_title << "..." << std::endl;
+    std::cout << m_title << "..." << "\n";
 }

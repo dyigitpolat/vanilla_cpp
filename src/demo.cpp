@@ -10,10 +10,10 @@ Demo::Demo(const std::function<void()> &function, const std::string &title) :
 
 void Demo::play() const
 {
-    std::cout << "Selection: " << m_title << "..." << std::endl;
-    std::cout << std::endl;
+    std::cout << "Selection: " << m_title << "..." << "\n";
+    std::cout << "\n";
     m_function();
-    std::cout << std::endl;
+    std::cout << "\n";
 }
 
 const std::string& Demo::get_title() const
